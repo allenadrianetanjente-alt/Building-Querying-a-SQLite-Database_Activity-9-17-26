@@ -1,3 +1,9 @@
+👋 Welcome to Codespaces! You are on our default image. 
+   - It includes runtimes and tools for Python, Node.js, Docker, and more. See the full list here: https://aka.ms/ghcs-default-image
+   - Want to use a custom image instead? Learn more here: https://aka.ms/configure-codespace
+
+🔍 To explore VS Code to its fullest, search using the Command Palette (Cmd/Ctrl + Shift + P or F1).
+
 📝 Edit away, run your app as usual, and we'll automatically make it available for you to access.
 
 @allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ sqlite3 --version
@@ -192,4 +198,59 @@ WHERE category = 'Office Supplies';
 ╞══════════════════════╡
 │                    3 │
 ╰──────────────────────╯
-sqlite> 
+sqlite> .quit
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        inventory.db
+
+nothing added to commit but untracked files present (use "git add" to track)
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ git add inventory.db queries.sql
+fatal: pathspec 'queries.sql' did not match any files
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ git add inventory.db
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ git commit -m "Done with SQLite Inventory
+> git push origin main
+> 
+> ;
+> ^C
+^C
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ "
+> ^C
+
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ 
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ git commit -m "Done with SQLite Inventory"
+[main 219c12d] Done with SQLite Inventory
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 inventory.db
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ git push origin main
+To https://github.com/allenadrianetanjente-alt/Building-Querying-a-SQLite-Database_Activity-9-17-26
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'https://github.com/allenadrianetanjente-alt/Building-Querying-a-SQLite-Database_Activity-9-17-26'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ git pull --rebase origin main
+remote: Enumerating objects: 4, done.
+remote: Counting objects: 100% (4/4), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (3/3), 2.83 KiB | 2.83 MiB/s, done.
+From https://github.com/allenadrianetanjente-alt/Building-Querying-a-SQLite-Database_Activity-9-17-26
+ * branch            main       -> FETCH_HEAD
+   45cb37e..bcb87bb  main       -> origin/main
+Successfully rebased and updated refs/heads/main.
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ git push origin main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 2 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 955 bytes | 955.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/allenadrianetanjente-alt/Building-Querying-a-SQLite-Database_Activity-9-17-26
+   bcb87bb..2750a6b  main -> main
+@allenadrianetanjente-alt ➜ /workspaces/Building-Querying-a-SQLite-Database_Activity-9-17-26 (main) $ 
